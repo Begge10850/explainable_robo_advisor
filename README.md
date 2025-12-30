@@ -41,32 +41,32 @@ The system follows a modular and sequential pipeline:
 ---
 
 ## Repository Structure
-explainable_robo_advisor/
-│
-├── data_generation.ipynb
-│ Synthetic investor data creation and preprocessing
-│
-├── data_exploration.ipynb
-│ Exploratory data analysis and feature inspection
-│
-├── model_training.ipynb
-│ Model training, evaluation, and probability outputs
-│
-├── explainability_shap.ipynb
-│ SHAP-based explainability and feature contribution analysis
-│
-├── rag/
-│ ├── knowledge_base/
-│ │ └── base_knowledge.md
-│ │ Curated financial explanation content
-│ │
-│ └── rag_explainer.ipynb
-│ Retrieval-augmented explanation generation
-│
-├── .gitignore
-│ Git ignore rules (models, data, environments, secrets)
-│
-└── README.md
+      explainable_robo_advisor/
+      │
+      ├── data_generation.ipynb
+      │ Synthetic investor data creation and preprocessing
+      │
+      ├── data_exploration.ipynb
+      │ Exploratory data analysis and feature inspection
+      │
+      ├── model_training.ipynb
+      │ Model training, evaluation, and probability outputs
+      │
+      ├── explainability_shap.ipynb
+      │ SHAP-based explainability and feature contribution analysis
+      │
+      ├── rag/
+      │ ├── knowledge_base/
+      │ │ └── base_knowledge.md
+      │ │ Curated financial explanation content
+      │ │
+      │ └── rag_explainer.ipynb
+      │ Retrieval-augmented explanation generation
+      │
+      ├── .gitignore
+      │ Git ignore rules (models, data, environments, secrets)
+      │
+      └── README.md
 
 ---
 
@@ -75,11 +75,11 @@ explainable_robo_advisor/
 ## 1. Environment Setup
 Create a virtual environment (recommended):
 
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+      python -m venv venv
+      source venv/bin/activate  # Windows: venv\Scripts\activate
 Install required dependencies (example):
 
-pip install numpy pandas scikit-learn shap matplotlib seaborn jupyter
+      pip install numpy pandas scikit-learn shap matplotlib seaborn jupyter
 Note: Exact dependency versions may vary depending on the local setup.
 
 ---
