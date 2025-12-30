@@ -68,27 +68,23 @@ explainable_robo_advisor/
 │
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## How to Run the Project
 
-### 1. Environment Setup
+## 1. Environment Setup
 Create a virtual environment (recommended):
 
-```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 Install required dependencies (example):
 
-bash
-Copy code
 pip install numpy pandas scikit-learn shap matplotlib seaborn jupyter
 Note: Exact dependency versions may vary depending on the local setup.
 
-2. Execution Order
+---
+
+## 2. Execution Order
 For a clean and logical execution, notebooks should be run in the following order:
 
 data_generation.ipynb
@@ -103,7 +99,9 @@ rag/rag_explainer.ipynb
 
 Each notebook is self-contained and includes explanatory comments describing its purpose and outputs.
 
-Model Files and Data Handling
+---
+
+## Model Files and Data Handling
 Trained models and large datasets are not included in this repository due to size constraints and best practices for version control.
 
 Model artifacts (e.g. .joblib, .pkl) are generated locally when running the training notebook.
@@ -116,7 +114,9 @@ A clean and lightweight repository
 
 Full reproducibility through code rather than stored binaries
 
-Explainability Strategy
+---
+
+## Explainability Strategy
 The project uses SHAP (SHapley Additive exPlanations) to:
 
 Quantify individual feature contributions
@@ -127,7 +127,9 @@ Support transparency and auditability
 
 SHAP-based explanations are combined with domain-specific contextual information retrieved via RAG to produce explanations that are understandable by non-technical users.
 
-Disclaimer
+---
+
+## Disclaimer
 This project is an educational prototype only.
 
 It does not provide financial advice.
@@ -138,9 +140,13 @@ Outputs should not be interpreted as personalized investment recommendations.
 
 The system is intended solely for academic, illustrative, and research purposes.
 
+---
+
 Author
 Treva Antony Ogwang
 Bachelor Thesis – Data Science, AI & Digital Business
+
+---
 
 License
 This project is provided for academic and educational use.
