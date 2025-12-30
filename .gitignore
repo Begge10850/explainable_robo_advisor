@@ -1,0 +1,22 @@
+.venv_rag/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+*.pyd
+
+# Models / artifacts
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Data files (optional - recommended if large)
+*.csv
+*.parquet
+
+.env
+**/.env
